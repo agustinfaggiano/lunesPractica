@@ -13,6 +13,11 @@ let listaAutos = [
         marca: "Honda",
         modelo: "CRV",
         anio: 2008
+    },
+    {
+        marca: "Alfa Romeo",
+        modelo: "156 V6",
+        anio: 2000
     }
 ];
 
