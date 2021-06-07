@@ -1,18 +1,9 @@
-let tareasTraidas = require('./Tareas/tareas.json');
-let {listarTareas, guardarNuevaTarea, borrarTarea, filtrarPorEstado }= require('./Funciones/funcionesDeTareas');
+let autosDeAgustin = require("./Modulos/autos");
 
-let tareaParaAgregar = {
-    codigo: 322,
-    titulo: "Practicar GIT",
-    estado: "Terminada"
-};
 
-guardarNuevaTarea(tareasTraidas,tareaParaAgregar);
+console.log("Estoy practicando los comandos de GIT !!!");
 
-//tareasTraidas = borrarTarea(tareasTraidas,322);
-
-listarTareas(tareasTraidas);
-let tareasFiltr = filtrarPorEstado(tareasTraidas, "Terminada");
-//listarTareas(tareasFiltr); //muestro las tareas filtradas
+console.log("Mis vehículos son:");
+console.log(autosDeAgustin);
 
 
